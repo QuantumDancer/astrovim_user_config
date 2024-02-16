@@ -14,4 +14,5 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.completion.copilot-lua" },
 }
