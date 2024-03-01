@@ -19,4 +19,12 @@ return {
       -- configurations go here
     },
   },
+  {
+    "johnfrankmorgan/whitespace.nvim",
+    event = "BufEnter",
+    opts = {
+      highlight = "DiffDelete",
+      ignored_filetypes = { "TelescopePrompt", "Trouble", "help", "alpha" },
+    },
+  },
 }
